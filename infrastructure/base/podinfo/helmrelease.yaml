@@ -7,7 +7,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: podinfo
+      chart: ./infrastructure/base/helm-chart-repositories/podinfo-chart.yaml
       version: 6.3.6
       sourceRef:
         kind: HelmRepository
